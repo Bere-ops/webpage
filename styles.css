@@ -1,0 +1,48 @@
+body {
+    background-color: navy ;
+    font-family: Arial, sans-serif;
+    margin: 25px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: slategray;
+    border: 2px dotted black;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+p {
+    color: white;
+}
+
+.caja {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+
+article,
+.libros{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0,0.1);
+}
+
+
+img,
+.libros{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+header, footer {
+  text-align: center;
+  margin-bottom: 16px;
+}
+footer p { color: white; }
